@@ -1,0 +1,11 @@
+; INF file for Terminal Server Web client
+[VERSION]
+signature="$CHICAGO"
+AdancedINF=2.0
+[Add.Code]
+msrdp.ocx=msrdp.ocx
+[msrdp.ocx]
+file-win32-x86=thiscab
+clsid={1fb464c8-09bb-4017-a2f5-eb742f04392f}
+FileVersion=5,0,2221,1
+RegisterServer=yes
